@@ -1,7 +1,10 @@
 NOTE: Heavily a work in progress. The purpose of this guide is to provide a structured resource to make game hacking as easy as possible for $0.
 
 === Let's jump straight into it.
-. x64 Intel assembly knowledge is vital. Do all of the challenges, and optionally write tiny programs in that assembly:
+. Learn the C programming language as it's vital. Follow along and write the programs in the book to fully understand their concepts:
+- https://inria.hal.science/hal-02383654v2/file/modernC.pdf
+- If you pivoted into writing your own small programs from knowledge provided by that book, which is recommended, I would reference the book and this website: https://www.cbyexample.com/
+. x64 Intel assembly knowledge is also vital. Do all of the challenges, and optionally write tiny programs in that assembly:
 - https://pwn.college/welcome/welcome/
 - https://pwn.college/computing-101/assembly-crash-course/
 
