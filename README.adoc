@@ -15,6 +15,8 @@ This is an important point as there is a website that preys on people spending m
 
 . This is not a skillset to pursue for the money. It may look this way when looking at paid cheats, but remember that it takes a tremendous amount of effort and time to reach that position, and also there are legal issues with making a Pay-2-Cheat provider that can get you sued and make your financial situation far worse than it was prior. I'm not saying go be an ethical hacker; do whatever the fuck you want, just be careful about it.
 
+. If you take major shortcuts, such as neglecting to make your own menu in favor of using ImGui, that is robbing yourself of valuable learning experiences and bloating / lowering the quality of your game hack. Do it from scratch, and if you can -- to make it easier on yourself, use the game engine's own functions such as Surface in the Source Engine to draw your menu.
+
 === Let's jump straight into it.
 . Learn the C programming language as it's vital. Please do not learn C++ at this stage. Follow along and write the programs in the book to fully understand their concepts:
 - https://inria.hal.science/hal-02383654v2/file/modernC.pdf
