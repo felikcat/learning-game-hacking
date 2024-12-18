@@ -2,12 +2,18 @@ NOTE: Heavily a work in progress.
 
 === What to know before-hand
 . You will deviate from the goal of game hacking at first, in order to thoroughly learn C and Intel assembly. Failure to do this will result in your game hacking attempts being painful at best.
+
 . If you've got ADD or ADHD, use a Pomodoro timer to accomodate. My recommendation is using https://github.com/Splode/pomotroid. For stress management, a Pomodoro timer will also be helpful if you extend the long breaks for yourself.
+
 . Spending money does not equate to better quality learning material. All the material provided here is of high quality, with no catches. +
 This is an important point as there is a website that preys on people spending money for access to their materials, and scams them if they accidentally used a VPN once. They also scam if they are in the belief that you are someone else they've banned (due to your IP's location).
+
 . This is specific to the Windows operating system. Linux does not make a good environment to learning game hacking, and is for those that are already well versed in it.
 . Do not ever use AI to ask questions or solve your problems. It will be wrong, and you will also develop an over-reliance on it for problem solving; usage of AI will also make programming not as fun, and your imposter syndrome will be through the roof because it's true.
+
 . It is normal to copy other people's code while learning, do not feel bad. However, be sure to document / comment on each part you didn't understand before, so that you can remember and learn from it.
+
+. This is not a skillset to pursue for the money. It may look this way when looking at paid cheats, but remember that it takes a tremendous amount of effort and time to reach that position, and also there are legal issues with making a Pay-2-Cheat provider that can get you sued and make your financial situation far worse than it was prior. I'm not saying go be an ethical hacker; do whatever the fuck you want, just be careful about it.
 
 === Let's jump straight into it.
 . Learn the C programming language as it's vital. Please do not learn C++ at this stage. Follow along and write the programs in the book to fully understand their concepts:
