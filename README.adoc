@@ -2,7 +2,7 @@ NOTE: Heavily a work in progress.
 
 === What to know before-hand
 . You will deviate from the goal of game hacking at first, in order to thoroughly learn C and Intel assembly. Failure to do this will result in your game hacking attempts being painful at best.
-. If you've got ADD or ADHD, use a Pomodoro timer to accomodate. My recommendation is using https://github.com/Splode/pomotroid.
+. If you've got ADD or ADHD, use a Pomodoro timer to accomodate. My recommendation is using https://github.com/Splode/pomotroid. For stress management, a Pomodoro timer will also be helpful if you extend the long breaks for yourself.
 . Spending money does not equate to better quality learning material. All the material provided here is of high quality, with no catches. +
 This is an important point as there is a website that preys on people spending money for access to their materials, and scams them if they accidentally used a VPN once. They also scam if they are in the belief that you are someone else they've banned (due to your IP's location).
 . This is specific to the Windows operating system. Linux does not make a good environment to learning game hacking, and is for those that are already well versed in it.
