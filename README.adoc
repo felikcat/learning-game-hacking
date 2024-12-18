@@ -2,6 +2,7 @@ NOTE: Heavily a work in progress. The purpose of this guide is to provide a stru
 
 === Let's jump straight into it.
 . x64 Intel assembly knowledge is vital. Do all of the challenges, and optionally write tiny programs in that assembly:
+- https://pwn.college/welcome/welcome/
 - https://pwn.college/computing-101/assembly-crash-course/
 
 . Now for the fundamentals of game hacking:
