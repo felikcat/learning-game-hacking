@@ -3,7 +3,7 @@ NOTE: Heavily a work in progress.
 === What to know before-hand
 . You will deviate from the goal of game hacking at first, in order to thoroughly learn C and Intel assembly. Failure to do this will result in your game hacking attempts being painful at best.
 . Spending money does not equate to better quality learning material. All the material provided here is of high quality, with no catches. +
-This is an important point as there is a website that preys on people spending money for access to their materials, and scams them if they accidentally used a VPN once, or are in the belief that you are someone else (due to your IP's location).
+This is an important point as there is a website that preys on people spending money for access to their materials, and scams them if they accidentally used a VPN once. They also scam if they are in the belief that you are someone else (due to your IP's location).
 
 === Let's jump straight into it.
 . Learn the C programming language as it's vital. Please do not learn C++ at this stage. Follow along and write the programs in the book to fully understand their concepts:
