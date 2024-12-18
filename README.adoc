@@ -4,6 +4,7 @@ NOTE: Heavily a work in progress.
 . You will deviate from the goal of game hacking at first, in order to thoroughly learn C and Intel assembly. Failure to do this will result in your game hacking attempts being painful at best.
 . Spending money does not equate to better quality learning material. All the material provided here is of high quality, with no catches. +
 This is an important point as there is a website that preys on people spending money for access to their materials, and scams them if they accidentally used a VPN once. They also scam if they are in the belief that you are someone else they've banned (due to your IP's location).
+. This is specific to the Windows operating system. Linux does not make a good environment to learning game hacking, and is for those that are already well versed in it.
 
 === Let's jump straight into it.
 . Learn the C programming language as it's vital. Please do not learn C++ at this stage. Follow along and write the programs in the book to fully understand their concepts:
@@ -12,6 +13,15 @@ This is an important point as there is a website that preys on people spending m
 . x64 Intel assembly knowledge is also vital. Do all of the challenges, and optionally write tiny programs in that assembly:
 - https://pwn.college/welcome/welcome/
 - https://pwn.college/computing-101/assembly-crash-course/
+
+. Tools to install for game hacking:
+- https://visualstudio.microsoft.com/; never use its GitHub Copilot, usage of AI will only bring you hardship.
+** Recommended extensions are:
+** https://marketplace.visualstudio.com/items?itemName=caphyon.ClangPowerTools
+** https://marketplace.visualstudio.com/items?itemName=MikeWard-AnnArbor.VSColorOutput
+- https://github.com/ReClassNET/ReClass.NET; be sure to compile this yourself, otherwise you'll miss out on 4 years of improvements.
+- https://www.cheatengine.org/; press "Skip All" in its installer to avoid installing any of the advertisements.
+- https://x64dbg.com/
 
 . Now for the fundamentals of game hacking:
 - https://gamehacking.academy/
