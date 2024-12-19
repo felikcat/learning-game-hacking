@@ -6,7 +6,7 @@
 
 . Spending money does not equate to better quality learning material. All the material provided here is of high quality, with no catches.
 
-. This is specific to the Windows operating system. Linux does not make a good environment to learning game hacking, and is for those that are already well versed in it.
+. This is specific to the Windows operating system. Linux does not make a good environment to learning game hacking, and is only for those that are already well versed in game hacking.
 
 . Do not ever use AI to ask questions or solve your problems. It will be wrong, and you will also develop an over-reliance on it for problem solving; usage of AI will also make programming not as fun, and your imposter syndrome will be through the roof because it's true.
 
@@ -24,11 +24,12 @@
 - https://inria.hal.science/hal-02383654v2/file/modernC.pdf
 - If you pivoted into writing your own small programs from knowledge provided by that book, which is recommended, I would reference the book and this website: https://www.cbyexample.com/
 
-. [Optional] x64 Intel assembly knowledge is highly recommended. Do all of the challenges, and optionally write tiny programs in that assembly:
+. [Optional] x64 Intel assembly knowledge is highly recommended. Do all of the challenges in order:
 - https://pwn.college/welcome/welcome/
 - https://pwn.college/computing-101/assembly-crash-course/
-** Command to compile NASM code: `nasm -f elf64 asm.S -o asm.o && ld asm.o -o asm_executable` +
-NASM file example: https://github.com/felikcat/game-hacking-academy/blob/master/nasm_example.S +
+** Command to compile assembly code: `nasm -f elf64 asm.S -o asm.o && ld asm.o -o asm_executable` +
+NASM-based assembly file example: https://github.com/felikcat/game-hacking-academy/blob/master/nasm_example.S
+- https://pwn.college/computing-101/memory/
 
 . [Optional] Your C knowledge can further be advanced by learning computer science staples:
 - https://openstax.org/books/introduction-computer-science/pages/2-introduction
