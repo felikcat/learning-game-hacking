@@ -48,6 +48,6 @@ NASM-based assembly file example: https://github.com/felikcat/game-hacking-acade
 - Chapter 15 -> More on Classes
 - Chapter 25 -> Virtual Functions
 
-. If making an aimbot or ESP, in order, read the following chapters to fully understand the math behind them:
-- https://openstax.org/books/intermediate-algebra-2e/pages/4-introduction (Matrices is the important one, but do not skip the others in Chapter 4)
-- https://openstax.org/books/algebra-and-trigonometry-2e/pages/9-introduction-to-trigonometric-identities-and-equations
+. If making an aimbot or ESP, read this book to fully understand the math behind them:
+- https://www.gamemath.com/book/
+
