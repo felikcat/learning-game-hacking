@@ -64,3 +64,8 @@ Reference names and descriptions for a lot of registers: http://ref.x86asm.net/g
 . If making an aimbot or ESP, read this book to fully understand the math behind them:
 - https://www.gamemath.com/book/
 
+. DMA cheat creation is completely TODO, for now, here's some background information:
+
+- To start off with for understanding how DMA works: https://cheatsdb.org/topic/713-dma-type-of-undetectable-prohibited-software/
+
+- Gigabyte motherboards are known to block DMA devices, sell or return it and get an ASRock or ASUS (these two have the highest quality BIOS for AMD CPUs) motherboard.
