@@ -50,6 +50,7 @@ Reference names and descriptions for a lot of registers: http://ref.x86asm.net/g
 - https://github.com/ReClassNET/ReClass.NET; be sure to compile this yourself, otherwise you'll miss out on 4 years of improvements.
 - https://www.cheatengine.org/; press "Skip All" in its installer to avoid installing any of the advertisements.
 - https://x64dbg.com/
+- https://www.systeminformer.com/; for its injector. To use it, right-click on the desired executable, click on `Properties`, `Modules`, then `Options` -> `Load module` to inject a DLL into that process.
 - Find "IDA Pro 9.0.240925 RC1" from the official source.
 
 . Now for the fundamentals of game hacking:
