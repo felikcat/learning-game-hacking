@@ -1,4 +1,6 @@
-=== What to know before-hand
+:imagesdir: images
+
+== What to know before-hand
 . You will deviate from the goal of game hacking at first, in order to thoroughly learn C. Failure to do this will result in your game hacking attempts being painful at best.
 
 . If you've got attention problems or ADD or ADHD, use a Pomodoro timer to accomodate. My recommendation is using https://github.com/Splode/pomotroid. For stress management, a Pomodoro timer will also be helpful if you extend the long breaks for yourself.
@@ -14,7 +16,7 @@
 
 . If you take major shortcuts, such as neglecting to make your own menu in favor of using ImGui, that is robbing yourself of valuable learning experiences and bloating / lowering the quality of your game hack. Do it from scratch, and if you can -- to make it easier on yourself, use the game engine's own functions such what is contained within the `IMatSystemSurface -> vgui -> ISurface` class in the Source Engine to draw your menu.
 
-=== Let's jump straight into it
+== Let's jump straight into it
 . Install Visual Studio and avoid making CMake projects: https://visualstudio.microsoft.com/
 - Also install the following VS extensions:
 ** https://marketplace.visualstudio.com/items?itemName=caphyon.ClangPowerTools
@@ -24,14 +26,24 @@
 - https://inria.hal.science/hal-02383654v2/file/modernC.pdf
 - If you pivoted into writing your own small programs from knowledge provided by that book, which is recommended, I would reference the book and this website: https://www.cbyexample.com/
 
-. [Optional] x64 Intel assembly knowledge is highly recommended. Do all of the challenges in order:
+. x64 Intel assembly knowledge is highly recommended. Optionally, do all of the challenges in order:
 - https://pwn.college/welcome/welcome/
 - https://pwn.college/computing-101/assembly-crash-course/
-** Command to compile assembly code: `nasm -f elf64 asm.S -o asm.o && ld asm.o -o asm_executable` +
-NASM-based assembly file example: https://github.com/felikcat/game-hacking-academy/blob/master/nasm_example.S
 - https://pwn.college/computing-101/memory/
 
-. [Optional] Your C knowledge can further be advanced by learning computer science staples:
+== Assembly help
+Command to compile assembly code: `nasm -f elf64 asm.S -o asm.o && ld asm.o -o asm_executable`
+
+NASM-based assembly file example: https://github.com/felikcat/game-hacking-academy/blob/master/nasm_example.S
+
+image:x86_opcode_structure_and_instruction_overview.png[]
+
+Explanations for the most used registers; start with https://treeniks.github.io/x86-64-simplified/system-v-abi.html first then proceed to read the other pages.
+
+Reference names and descriptions for a lot of registers: http://ref.x86asm.net/geek64.html
+
+== Learning game hacking
+. Optionally, your C knowledge can further be advanced by learning computer science staples:
 - https://openstax.org/books/introduction-computer-science/pages/2-introduction
 
 . Tools to install for game hacking:
