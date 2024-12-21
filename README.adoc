@@ -61,6 +61,8 @@ Reference names and descriptions for a lot of registers: http://ref.x86asm.net/g
 - Chapter 15 -> More on Classes
 - Chapter 25 -> Virtual Functions
 
+. For x64 games, there is some quirks with patching / hooking you should know about for both Windows and Linux: https://wiki.alliedmods.net/Porting_to_x64#I.27m_having_an_issue.21
+
 . If making an aimbot or ESP, read this book to fully understand the math behind them:
 - https://www.gamemath.com/book/
 
