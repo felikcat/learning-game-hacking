@@ -1,0 +1,4 @@
+== A plugin fails to install its Python dependencies
+. Close Binary Ninja.
+. Navigate to `%appdata%\Binary Ninja\python310`, then delete `site-packages`.
+. Try to install the plugin again.

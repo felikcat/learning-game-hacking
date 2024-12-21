@@ -1,20 +1,24 @@
 :imagesdir: images
 
-== What to know before-hand
+NOTE: Heavily a work in progress. There are overcomplications and a lack of explanations in some areas. Still better than no guidance though.
+
+== What to know before-hand and how to approach this
+. Expect a basic hack with ESP and aimbot to take you months of consistent effort. I try to shorten this but ultimately this is like learning a new spoken language.
+
 . You will deviate from the goal of game hacking at first, in order to thoroughly learn C. Failure to do this will result in your game hacking attempts being painful at best.
 
 . If you've got attention problems or ADD or ADHD, use a Pomodoro timer to accomodate. My recommendation is using https://github.com/Splode/pomotroid. For stress management, a Pomodoro timer will also be helpful if you extend the long breaks for yourself.
 - Don't be afraid to increase the focus time if it's too short, but do it sparingly. For ADHD, shorter focus times such as 20 minutes with 1 to 2 minute short breaks might work better.
 
-. Spending money does not equate to better quality learning material. All the material provided here is of high quality, with no catches.
-
 . This is specific to the Windows operating system. Linux does not make a good environment to learning game hacking, and is only for those that are already well versed in game hacking.
 
 . Do not ever use AI to ask questions or solve your problems. It will be wrong, and you will also develop an over-reliance on it for problem solving; usage of AI will also make programming not as fun, and your imposter syndrome will be through the roof because it's true.
 
-. It is normal to copy other people's code while learning, do not feel bad. However, be sure to document / comment on each part you didn't understand before, so that you can remember and learn from it.
+. It is normal to copy other people's code while learning, don't feel bad over it. The catch is, you have to document / comment on each part you didn't understand before, as to remember and learn from it.
 
-. If you take major shortcuts, such as neglecting to make your own menu in favor of using ImGui, that is robbing yourself of valuable learning experiences and bloating / lowering the quality of your game hack. Do it from scratch, and if you can -- to make it easier on yourself, use the game engine's own functions such what is contained within the `IMatSystemSurface -> vgui -> ISurface` class in the Source Engine to draw your menu.
+. Taking major shortcuts, such as neglecting to make your own menu in favor of using ImGui is  robbing yourself of valuable learning experiences and bloating / lowering the quality of your game hack.
+
+. Do not be perfectionist early on, and do not be selective on what you learn from what's talked about below. Make those mistakes knowing it brings you closer to a good solution.
 
 == Let's jump straight into it
 . Install Visual Studio and avoid making CMake projects: https://visualstudio.microsoft.com/
@@ -32,7 +36,7 @@
 - https://pwn.college/computing-101/memory/
 
 == Assembly help
-Command to compile assembly code: `nasm -f elf64 asm.S -o asm.o && ld asm.o -o asm_executable`
+Command to compile assembly code for pwn.college: `nasm -f elf64 asm.S -o asm.o && ld asm.o -o asm_executable`
 
 NASM-based assembly file example: https://github.com/felikcat/game-hacking-academy/blob/master/nasm_example.S
 
@@ -51,23 +55,25 @@ Reference names and descriptions for a lot of registers: http://ref.x86asm.net/g
 - https://www.cheatengine.org/; press "Skip All" in its installer to avoid installing any of the advertisements.
 - https://x64dbg.com/
 - https://www.systeminformer.com/; for its injector. To use it, right-click on the desired executable, click on `Properties`, `Modules`, then `Options` -> `Load module` to inject a DLL into that process.
-- Find "IDA Pro 9.0.240925 RC1" from the official source.
+- Purchase Binary Ninja Personal edition, or find "IDA Pro 9.0.240925 RC1" from the official source, don't settle for less.
 
 . Now for the fundamentals of game hacking:
 - https://gamehacking.academy/
+- Use their Discord if you need help, but search for what you're stuck on first before asking.
 
-. Learn the following C++ concepts to make future game hacking easier: https://www.learncpp.com
+. Learn the following C++ concepts to be able to game hack Source Engine games, and probably other engines: https://www.learncpp.com
 - Chapter 14 -> Introduction to Classes
 - Chapter 15 -> More on Classes
 - Chapter 25 -> Virtual Functions
 
-. For x64 games, there is some quirks with patching / hooking you should know about for both Windows and Linux: https://wiki.alliedmods.net/Porting_to_x64#I.27m_having_an_issue.21
-
-. If making an aimbot or ESP, read this book to fully understand the math behind them:
+. After you've made bunnyhop and other forms of simple hacks. Learn to do an aimbot or ESP by reading this book to fully understand the math behind them:
 - https://www.gamemath.com/book/
 
-. DMA cheat creation is completely TODO, for now, here's some background information:
+== Specific pages
+WARNING: These are completely unfinished.
 
-- To start off with for understanding how DMA works: https://cheatsdb.org/topic/713-dma-type-of-undetectable-prohibited-software/
+. Making a xref:pages/GMOD.adoc[Garry's Mod] x64 hack. It is recommended to do this, you will learn a lot. I plan to replace the https://gamehacking.academy/ recommendation with this when it's filled to the brim with information.
 
-- Gigabyte motherboards are known to block DMA devices, sell or return it and get an ASRock or ASUS (these two have the highest quality BIOS for AMD CPUs) motherboard.
+. Tips and tricks for xref:pages/Binary Ninja.adoc[Binary Ninja].
+
+. xref:pages/DMA.adoc[DMA hack creation], along with tips and tricks.

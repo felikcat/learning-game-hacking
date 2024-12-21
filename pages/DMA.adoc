@@ -1,0 +1,4 @@
+== Background information
+. To start off with for understanding how DMA works: https://cheatsdb.org/topic/713-dma-type-of-undetectable-prohibited-software/
+
+. Gigabyte motherboards are known to block DMA devices, sell or return it and get an ASRock or ASUS motherboard; those two companies have the highest quality BIOSes in their motherboards for AM5 CPUs.

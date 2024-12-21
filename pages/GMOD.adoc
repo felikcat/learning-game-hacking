@@ -1,0 +1,5 @@
+== Using macOS dynlibs to make reversing easier
+. Make a shortcut to your Steam, then append `-console` to the shortcut's Target.
+. Launch Steam through that shortcut, go to Console, then run `download_depot 4000 4004`; be sure to check https://steamdb.info/app/4000/depots/ incase the depot number changed for "GMOD OSX".
+. Now you can reverse macOS's `client.dylib` to get direct information.
+. *TODO*: explain how to replicate the findings from the macOS version to the Windows version.
