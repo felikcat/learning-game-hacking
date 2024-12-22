@@ -1,44 +1,43 @@
 :imagesdir: images
 
-NOTE: Heavily a work in progress. There are overcomplications and a lack of explanations in some areas. Still better than no guidance though.
+== The thought process of approaching this
+In order to succeed and not be a "paster", a thorough familiarization of the C++ programming language and various programming concepts are necessary. It is expected to take many months and lots of practice, as if learning a new spoken language such as Italian. If you were looking to make a game hack quickly, that's not possible, go ahead and use a pre-existing game hack to calm your itch.
 
-== What to know before-hand and how to approach this
-. Expect a basic hack with ESP and aimbot to take you months of consistent effort. I try to shorten this but ultimately this is like learning a new spoken language.
+You cannot under any circumstances use AI for assistance, it has too many inaccuracies, and no shortcuts are to be taken. A much later example of a shortcut would be using ImGui instead of creating your own cheat menu.
 
-. You will deviate from the goal of game hacking at first, in order to thoroughly learn C. Failure to do this will result in your game hacking attempts being painful at best.
+== What if I struggle with focus/reading?
+Use a Pomodoro timer to accomodate. My recommendation is using https://github.com/Splode/pomotroid[Pomotroid]. For stress management, a Pomodoro timer will also be helpful if you extend the long breaks for yourself.
+Don't be afraid to increase the focus time if it's too short, but do it sparingly. For ADHD, shorter focus times such as 20 minutes with 1 to 2 minute short breaks might work better.
 
-. If you've got attention problems or ADD or ADHD, use a Pomodoro timer to accomodate. My recommendation is using https://github.com/Splode/pomotroid. For stress management, a Pomodoro timer will also be helpful if you extend the long breaks for yourself.
-- Don't be afraid to increase the focus time if it's too short, but do it sparingly. For ADHD, shorter focus times such as 20 minutes with 1 to 2 minute short breaks might work better.
+== Learning vital concepts
 
-. This is specific to the Windows operating system. Linux does not make a good environment to learning game hacking, and is only for those that are already well versed in game hacking.
+If you are unaware of what to use to program in C with, the recommended choice is https://visualstudio.microsoft.com/[Visual Studio] if you're on Windows. For Linux it'd be https://repology.org/project/vscode/versions[Visual Studio Code]. You can go with options like Neovim, but the point is to get started in learning C with the least amount of friction.
 
-. Do not ever use AI to ask questions or solve your problems. It will be wrong, and you will also develop an over-reliance on it for problem solving; usage of AI will also make programming not as fun, and your imposter syndrome will be through the roof because it's true.
+.For Visual Studio, install the following extensions for it:
+- https://marketplace.visualstudio.com/items?itemName=caphyon.ClangPowerTools
+- https://marketplace.visualstudio.com/items?itemName=MikeWard-AnnArbor.VSColorOutput
 
-. It is normal to copy other people's code while learning, don't feel bad over it. The catch is, you have to document / comment on each part you didn't understand before, as to remember and learn from it.
+.For Visual Studio code, install the following extensions for it:
+- https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools-extension-pack
+- https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-cpp-syntax
 
-. Taking major shortcuts, such as neglecting to make your own menu in favor of using ImGui is  robbing yourself of valuable learning experiences and bloating / lowering the quality of your game hack.
+Start off with https://openstax.org/books/introduction-computer-science/pages/2-introduction[this book], which teaches both computer science concepts and some of the C programming language. We'll learn C++ later on as it is necessary for hacking video games effectively.
 
-. Do not be perfectionist early on, and do not be selective on what you learn from what's talked about below. Make those mistakes knowing it brings you closer to a good solution.
+After you are finished with that book, it is required to install a program to view .epub or .pdf files is necessary for the next book. On Windows this would be https://www.sumatrapdfreader.org[Sumatra PDF], while for Linux this would be https://johnfactotum.github.io/foliate/[Foliate].
 
-== Let's jump straight into it
-. Install Visual Studio and avoid making CMake projects: https://visualstudio.microsoft.com/
-- Also install the following VS extensions:
-** https://marketplace.visualstudio.com/items?itemName=caphyon.ClangPowerTools
-** https://marketplace.visualstudio.com/items?itemName=MikeWard-AnnArbor.VSColorOutput
+Now is the time to learn C++ from a book called Programming: Principles and Practice Using C++ (C++ In-depth) 3rd Edition, you can find it from Amazon, https://en.wikipedia.org/wiki/Z-Library[Z-Library], or https://en.wikipedia.org/wiki/Anna%27s_Archive[Anna's Archive].
 
-. Learn the C programming language as it's vital. Please do not learn C++ at this stage. Follow along and write the programs in the book to fully understand their concepts:
-- https://inria.hal.science/hal-02383654v2/file/modernC.pdf
-- If you pivoted into writing your own small programs from knowledge provided by that book, which is recommended, I would reference the book and this website: https://www.cbyexample.com/
+== x64 Intel assembly
+It is necessary to know this in order to debug problems you run across, and to reverse engineer video games.
 
-. x64 Intel assembly knowledge is highly recommended. Optionally, do all of the challenges in order:
+.Start by learning from the following resources:
 - https://pwn.college/welcome/welcome/
 - https://pwn.college/computing-101/assembly-crash-course/
 - https://pwn.college/computing-101/memory/
 
-== Assembly help
 Command to compile assembly code for pwn.college: `nasm -f elf64 asm.S -o asm.o && ld asm.o -o asm_executable`
 
-NASM-based assembly file example: https://github.com/felikcat/game-hacking-academy/blob/master/nasm_example.S
+https://github.com/felikcat/game-hacking-academy/blob/master/nasm_example.S[NASM-based assembly file example].
 
 image:x86_opcode_structure_and_instruction_overview.png[]
 
@@ -47,8 +46,6 @@ Explanations for the most used registers; start with https://treeniks.github.io/
 Reference names and descriptions for a lot of registers: http://ref.x86asm.net/geek64.html
 
 == Learning game hacking
-. Optionally, your C knowledge can further be advanced by learning computer science staples:
-- https://openstax.org/books/introduction-computer-science/pages/2-introduction
 
 . Tools to install for game hacking:
 - https://github.com/ReClassNET/ReClass.NET; be sure to compile this yourself, otherwise you'll miss out on 4 years of improvements.
@@ -61,19 +58,8 @@ Reference names and descriptions for a lot of registers: http://ref.x86asm.net/g
 - https://gamehacking.academy/
 - Use their Discord if you need help, but search for what you're stuck on first before asking.
 
-. Learn the following C++ concepts to be able to game hack Source Engine games, and probably other engines: https://www.learncpp.com
-- Chapter 14 -> Introduction to Classes
-- Chapter 15 -> More on Classes
-- Chapter 25 -> Virtual Functions
-
 . After you've made bunnyhop and other forms of simple hacks. Learn to do an aimbot or ESP by reading this book to fully understand the math behind them:
 - https://www.gamemath.com/book/
 
 == Specific pages
-WARNING: These are completely unfinished.
-
-. Making a xref:pages/GMOD.adoc[Garry's Mod] x64 hack. It is recommended to do this, you will learn a lot. I plan to replace the https://gamehacking.academy/ recommendation with this when it's filled to the brim with information.
-
 . Tips and tricks for xref:pages/Binary Ninja.adoc[Binary Ninja].
-
-. xref:pages/DMA.adoc[DMA hack creation], along with tips and tricks.

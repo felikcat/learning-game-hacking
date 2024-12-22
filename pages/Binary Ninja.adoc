@@ -2,3 +2,19 @@
 . Close Binary Ninja.
 . Navigate to `%appdata%\Binary Ninja\python310`, then delete `site-packages`.
 . Try to install the plugin again.
+
+== Common hotkeys
+
+[cols="1,1"]
+|===
+|Hotkey | Action
+
+|g
+|Go to Address
+
+|n
+|Define Name (renames selected subroutine or variable or symbol)
+
+|Ctrl + p
+|Action menu
+|===
