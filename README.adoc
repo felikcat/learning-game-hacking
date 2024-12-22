@@ -3,6 +3,8 @@
 == The thought process of approaching this
 In order to succeed and not be a "paster", a thorough familiarization of the C++ programming language and various programming concepts are necessary. It is expected to take many months and lots of practice, as if learning a new spoken language such as Italian. If you were looking to make a game hack quickly, that's not possible, go ahead and use a pre-existing game hack to calm your itch.
 
+If you've got the mindset of only doing what you deem as necessary, or are in general trying to minimize the time spent, stop that. Some parts of these books may seem questionable, but skipping content can leave out important context that would have otherwise made it easy to learn.
+
 You cannot under any circumstances use AI for assistance, it has too many inaccuracies, and no shortcuts are to be taken. A much later example of a shortcut would be using ImGui instead of creating your own cheat menu.
 
 == What if I struggle with focus/reading?
